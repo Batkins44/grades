@@ -62,25 +62,20 @@ function numberOfGrades(){
     let currentGradeCount = [];
     if (a >= b && a >= c && a >= d && a >= f){
         currentGradeCount.push("A");
-        console.log("A is the shit");
     };
     if (b >= a && b >= c && b >= d && b >= f){
-        console.log("B is the shit");
         currentGradeCount.push("B");
     };
     if (c >= a && c >= b && c >= d && c >= f){
         currentGradeCount.push("C");
-        console.log("C is the shit");
     };
     if (d >= a && d >= b && d >= c && d >= f){
         currentGradeCount.push("D");
-        console.log("D is the shit");
     }
     if (f >= a && f >= b && f >= c && f >= d){
         currentGradeCount.push("F");
-        console.log("F is the shit");
     }
-    console.log(currentGradeCount);
+    console.log("Current Grade Count",currentGradeCount);
     if(currentGradeCount.length > 1){
         for (i = 0; i < currentGradeCount.length; i++){
             stringPres += currentGradeCount[i]+","
@@ -98,25 +93,20 @@ function leastGrades(){
     let fewestGradeCount = [];
     if (a <= b && a <= c && a <= d && a <= f){
         fewestGradeCount.push("A");
-        console.log("A is the shit");
     };
     if (b <= a && b <= c && b <= d && b <= f){
-        console.log("B is the shit");
         fewestGradeCount.push("B");
     };
     if (c <= a && c <= b && c <= d && c <= f){
         fewestGradeCount.push("C");
-        console.log("C is the shit");
     };
     if (d <= a && d <= b && d <= c && d <= f){
         fewestGradeCount.push("D");
-        console.log("D is the shit");
     }
     if (f <= a && f <= b && f <= c && f <= d){
         fewestGradeCount.push("F");
-        console.log("F is the shit");
     }
-    console.log(fewestGradeCount);
+    console.log("fewest Grade Count",fewestGradeCount);
     if(fewestGradeCount.length > 1){
         for (i = 0; i < fewestGradeCount.length; i++){
             stringPres += fewestGradeCount[i]+","
